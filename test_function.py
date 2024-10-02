@@ -10,6 +10,7 @@ def test_sub():
     assert subfunc(1, 2) == -1
     assert subfunc( 2, 3) == -1
     assert subfunc(3, 4) == -1
+    assert subfunc(4, 5) == -1
 
 def test_mul():
     assert mulfunc(1, 2) == 2
